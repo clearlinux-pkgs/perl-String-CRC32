@@ -4,7 +4,7 @@
 #
 Name     : perl-String-CRC32
 Version  : 2.100
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEEJO/String-CRC32-2.100.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEEJO/String-CRC32-2.100.tar.gz
 Source1  : http://ftp.debian.org/debian/pool/main/libs/libstring-crc32-perl/libstring-crc32-perl_2-1.debian.tar.xz
@@ -102,6 +102,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/String/CRC32.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/String/CRC32.pod
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/String/CRC32/CRC32.so
+/usr/lib/perl5/*
