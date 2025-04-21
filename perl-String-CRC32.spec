@@ -7,7 +7,7 @@
 #
 Name     : perl-String-CRC32
 Version  : 2.100
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEEJO/String-CRC32-2.100.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEEJO/String-CRC32-2.100.tar.gz
 Source1  : http://ftp.debian.org/debian/pool/main/libs/libstring-crc32-perl/libstring-crc32-perl_2-1.debian.tar.xz
